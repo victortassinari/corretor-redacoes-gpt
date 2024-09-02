@@ -4,21 +4,17 @@ Este projeto é uma aplicação completa para correção automática de redaçõ
 
 ---
 
+
 ## Tecnologias Utilizadas
 
-- **Backend**:
-  - .NET 8
-  - OpenAI SDK
-  - ASP.NET Core
-- **Frontend**:
-  - Svelte
-  - Tailwind CSS
-  - Vite
-- **Infraestrutura**:
-  - Docker
-  - Docker Compose
+| **Backend**  | **Frontend** | **Infraestrutura** |
+| ------------ | ------------ | ------------------ |
+| .NET 8       | Svelte       | Docker             |
+| OpenAI SDK   | Tailwind CSS | Docker Compose     |
+| ASP.NET Core | Vite         |                    |
 
-  ---
+
+---
 
 ## Como Usar
 ### Pré-requisitos
@@ -33,7 +29,7 @@ Este projeto é uma aplicação completa para correção automática de redaçõ
 1. **Clone o repositório**:
 
    ```
-   git clone https://github.com/seu-usuario/seu-repositorio.git
+   git clone https://github.com/victortassinari/corretor-redacoes-gpt.git
    cd correcao-enem
    ```
 
