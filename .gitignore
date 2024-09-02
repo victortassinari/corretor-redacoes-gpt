@@ -1,0 +1,61 @@
+﻿# Global settings
+
+# Logs
+*.log
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Editor directories and files
+.vscode/
+.idea/
+*.swp
+
+# Node.js
+node_modules/
+dist/
+build/
+
+# Vite
+.vite
+.vite_cache/
+.vite_opt_cache/
+.cache/
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# TypeScript build artifacts
+*.tsbuildinfo
+
+# NuGet packages
+packages/
+
+# .NET & Visual Studio
+
+# Logs
+*.log
+
+# Visual Studio directories
+.vscode/
+.vs/
+
+# Diretórios de build do .NET
+bin/
+obj/
+
+# Arquivos de configuração do usuário do Visual Studio
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Arquivos de configuração de ambiente do .NET
+backend/appsettings.Development.json
+backend/appsettings.json

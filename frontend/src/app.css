@@ -1,0 +1,146 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #1a202c; /* bg-gray-900 */
+  color: #e2e8f0; /* text-gray-200 */
+}
+
+/* Estilo para títulos */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #2c3e50;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  line-height: 1.2;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 1.5em;
+  border-bottom: 2px solid #ecf0f1;
+  padding-bottom: 0.3em;
+}
+
+h2 {
+  font-size: 2em;
+  border-bottom: 1px solid #ecf0f1;
+  padding-bottom: 0.3em;
+}
+
+h3 {
+  font-size: 1.75em;
+}
+
+h4 {
+  font-size: 1.5em;
+}
+
+h5 {
+  font-size: 1.25em;
+}
+
+h6 {
+  font-size: 1em;
+  text-transform: uppercase;
+  color: #7f8c8d;
+}
+
+/* Parágrafos */
+p {
+  color: #34495e;
+  line-height: 1.6;
+  margin-bottom: 1.2em;
+  text-align: justify;
+}
+
+/* Listas */
+ul,
+ol {
+  margin-left: 2em;
+  margin-bottom: 1.2em;
+}
+
+ul li,
+ol li {
+  margin-bottom: 0.5em;
+}
+
+ul {
+  list-style-type: disc;
+}
+
+ol {
+  list-style-type: decimal;
+}
+
+/* Links */
+a {
+  color: #2980b9;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Elementos de código */
+code {
+  font-family: "Courier New", monospace;
+  background-color: #ecf0f1;
+  padding: 2px 4px;
+  border-radius: 3px;
+  font-size: 0.95em;
+}
+
+/* Elementos blockquote */
+blockquote {
+  font-style: italic;
+  color: #7f8c8d;
+  border-left: 4px solid #bdc3c7;
+  padding-left: 1em;
+  margin: 1em 0;
+}
+
+/* Textos tachados */
+del {
+  color: #e74c3c;
+  text-decoration: line-through;
+}
+
+/* Imagens */
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Tabelas */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1.5em;
+}
+
+table,
+th,
+td {
+  border: 1px solid #ecf0f1;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #34495e;
+  color: white;
+}
